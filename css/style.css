@@ -1,0 +1,53 @@
+body {
+  font-family: "Lato";
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+
+#myKanban {
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.headBg {
+  background: #cbe1ff;
+}
+
+.btnAlg {
+  float: right;
+  cursor: pointer;
+}
+
+.espaco {
+  margin-bottom: 60px;
+}
+
+.success {
+  background: #034224;
+}
+
+.info {
+  background: #8cdf21;
+}
+
+.warning {
+  background: #0f62ce;
+}
+
+.error {
+  background: #fb7d44;
+}
+
+.custom-button {
+  background-color: #3db447;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
